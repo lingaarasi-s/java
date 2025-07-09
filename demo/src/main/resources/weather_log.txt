@@ -1,0 +1,24 @@
+=== Weather Data for London ===
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":21.22,"feels_like":20.49,"temp_min":21.22,"temp_max":21.22,"pressure":1018,"humidity":42,"sea_level":1018,"grnd_level":1013},"visibility":10000,"wind":{"speed":3.41,"deg":325,"gust":5.24},"clouds":{"all":0},"dt":1751976594,"sys":{"country":"GB","sunrise":1751946799,"sunset":1752005847},"timezone":3600,"id":2643743,"name":"London","cod":200}
+====================================
+
+=== Weather Data for London ===
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":24,"feels_like":23.32,"temp_min":24,"temp_max":24,"pressure":1017,"humidity":33,"sea_level":1017,"grnd_level":1013},"visibility":10000,"wind":{"speed":3.22,"deg":325,"gust":4.46},"clouds":{"all":6},"dt":1751992914,"sys":{"country":"GB","sunrise":1751946799,"sunset":1752005847},"timezone":3600,"id":2643743,"name":"London","cod":200}
+====================================
+
+=== Weather Data for London ===
+{"coord":{"lon":-0.1257,"lat":51.5085},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":12.05,"feels_like":11.43,"temp_min":12.05,"temp_max":12.05,"pressure":1020,"humidity":81,"sea_level":1020,"grnd_level":1016},"visibility":10000,"wind":{"speed":1,"deg":304,"gust":1.17},"clouds":{"all":36},"dt":1752035231,"sys":{"country":"GB","sunrise":1752033257,"sunset":1752092206},"timezone":3600,"id":2643743,"name":"London","cod":200}
+====================================
+
+=== Weather Data for chennai ===
+{"coord":{"lon":80.2785,"lat":13.0878},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":33.51,"feels_like":40.51,"temp_min":33.51,"temp_max":33.51,"pressure":1009,"humidity":64,"sea_level":1009,"grnd_level":1007},"visibility":10000,"wind":{"speed":7.12,"deg":273,"gust":9.66},"clouds":{"all":43},"dt":1752035298,"sys":{"country":"IN","sunrise":1752020293,"sunset":1752066572},"timezone":19800,"id":1264527,"name":"Chennai","cod":200}
+====================================
+
+=== Weather Data for madurai ===
+{"coord":{"lon":78.1167,"lat":9.9333},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":32.77,"feels_like":33.63,"temp_min":32.77,"temp_max":32.77,"pressure":1009,"humidity":41,"sea_level":1009,"grnd_level":993},"visibility":10000,"wind":{"speed":3.65,"deg":288,"gust":3.39},"clouds":{"all":84},"dt":1752036312,"sys":{"country":"IN","sunrise":1752021141,"sunset":1752066763},"timezone":19800,"id":1264521,"name":"Madurai","cod":200}
+====================================
+
+=== Weather Data for trichy ===
+{"coord":{"lon":78.6988,"lat":10.8029},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":36.42,"feels_like":37.96,"temp_min":36.42,"temp_max":36.42,"pressure":1007,"humidity":34,"sea_level":1007,"grnd_level":997},"visibility":10000,"wind":{"speed":8.91,"deg":281,"gust":10.15},"clouds":{"all":10},"dt":1752044869,"sys":{"country":"IN","sunrise":1752020911,"sunset":1752066713},"timezone":19800,"id":7603116,"name":"Trichy","cod":200}
+====================================
+

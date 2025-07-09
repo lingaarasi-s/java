@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class FileHandling {
     public static void main(String[] args) {
-        File f1 = new File("C:\\Users\\LINGA ARASI\\icanio-intern-spring-boot\\demo\\src\\main\\java\\com\\example\\demo\\number.txt");
+        File f1 = new File("C:\\Users\\LINGA ARASI\\java\\demo\\src\\main\\resources\\number.txt");
         int count = 0;
         int sum = 0;
 
