@@ -1,74 +1,56 @@
 package com.example.demo;
+import java.util.InputMismatchException;
 import java.util.Scanner;
-
-enum Level1{
-    add,
-    subtract,
-    multiply,
-    divide
-}
 
 public class Calculator {
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
-        System.out.println("enter first operand:");
-        String first= scanner.nextLine();
+        int num1=0;
+        int num2=0;
 
-        Double num1;
-        Double num2;
-
-        try {
-            num1 = (double) Integer.parseInt(first);
-        } catch (NumberFormatException e1) {
-            try {
-                num1 = Double.parseDouble(first);
-            } catch (NumberFormatException e2) {
-                System.out.println("invalid input: " + first);
-                return;
-            }
+        System.out.println("enter first integer operand:");
+        try{
+            num1= scanner.nextInt();
+        }catch(InputMismatchException e){
+            System.out.println("invalid input..please enter integer numbers only.\n");
+            System.exit(1);
         }
 
-        System.out.println("enter second operand:");
-        String second= scanner.nextLine();
-
-        try {
-            num2 = (double) Integer.parseInt(second);
-        } catch (NumberFormatException e1) {
-            try {
-                num2 = Double.parseDouble(second);
-            } catch (NumberFormatException e2) {
-                System.out.println("invalid input: " + second);
-                return;
-            }
+        System.out.println("enter second integer operand:");
+        try{
+            num2= scanner.nextInt();
+            scanner.nextLine();
+        }catch(InputMismatchException e){
+            System.out.println("invalid input..please enter integer numbers only.\n");
+            System.exit(1);
         }
 
         System.out.println("enter  operator(+,-,*,/):");
         String op= scanner.nextLine();
 
-        Level1 operator;
         switch(op) {
             case "+":
-                operator = Level1.add;
-                Double addVal=num1+num2;
+                int addVal=num1+num2;
                 System.out.println("addition is "+addVal);
                 break;
 
             case "-":
-                operator = Level1.subtract;
-                Double subVal=num1-num2;
+                int subVal=num1-num2;
                 System.out.println("subtraction is "+subVal);
                 break;
 
             case "*":
-                operator = Level1.multiply;
-                Double mulVal=num1*num2;
+                int mulVal=num1*num2;
                 System.out.println("multiplication is "+mulVal);
                 break;
 
             case "/":
-                operator = Level1.divide;
-                Double divVal=num1/num2;
-                System.out.println("division is "+divVal);
+                try{
+                    int divVal=num1/num2;
+                    System.out.println("division is "+divVal);
+                }catch(ArithmeticException e){
+                    System.out.println("division by zero error.\n");
+                }
                 break;
 
             default:
