@@ -40,7 +40,7 @@ public class WeatherLogger {
                     writer.write("====================================\n\n");
                 }
 
-                System.out.println("Weather data logged successfully.");
+                System.out.println("Weather data logged successfully");
             } else {
                 System.out.println("Error: Received HTTP response code " + responseCode);
             }
