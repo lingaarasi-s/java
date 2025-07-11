@@ -4,6 +4,7 @@ public class PaymentProcessingSystem {
 
     interface PaymentMethod {
         boolean authorize(double amount);
+
         boolean capture(double amount);
     }
 
@@ -77,7 +78,7 @@ public class PaymentProcessingSystem {
                     System.out.println("Failed to capture payment.");
                 }
             } else {
-                System.out.println("Authorization failed.");
+                System.out.println("Authorization failed");
             }
 
             System.out.println("------------------------");
@@ -91,7 +92,7 @@ public class PaymentProcessingSystem {
 
         PaymentMethod wallet = new WalletPayment("WALLET9876");
         Payment payment2 = new Payment(500.0, wallet);
-        
+
         PaymentProcessor processor = new PaymentProcessor();
         processor.processPayment(payment1);
         processor.processPayment(payment2);
